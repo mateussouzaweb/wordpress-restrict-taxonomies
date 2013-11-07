@@ -252,7 +252,6 @@ class Restrict_Taxonomies{
 		$all = get_taxonomies();
 
 		unset( $all['nav_menu'] );
-		unset( $all['category'] );
 		unset( $all['post_format'] );
 		unset( $all['link_category'] );
 
